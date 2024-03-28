@@ -8,9 +8,9 @@ Musician::Musician() {
 }
 
 // Parameterized constructor
-Musician::Musician(std::string instrument, int experience) {
-    this->instrument;
-    this->experience;
+Musician::Musician(std::string _instrument, int _experience) {
+    instrument=_instrument;
+    experience=_experience;
 }
 
 // Getter for instrument
